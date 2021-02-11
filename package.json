@@ -1,0 +1,45 @@
+{
+  "name": "@jlong5795/node-starter-jlong",
+  "version": "1.0.0",
+  "description": "Personal boilerplate for Node/Express APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlong5795/node-starter.git"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "Typescript"
+  ],
+  "author": "Jason Long",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jlong5795/node-starter/issues"
+  },
+  "homepage": "https://github.com/jlong5795/node-starter#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.4.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.21.17",
+    "pg": "^8.5.1"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/cors": "^2.8.9",
+    "@types/express": "^4.17.11",
+    "@types/jsonwebtoken": "^8.5.0",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.4"
+  }
+}
